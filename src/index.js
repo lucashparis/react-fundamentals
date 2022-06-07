@@ -4,6 +4,7 @@ import './index.css'
 
 import First from './components/basics/First'
 import WithParameters from './components/basics/WithParameters'
+import Fragment from './components/basics/Fragment'
 const el = document.getElementById('root')
 ReactDom.render(
     <div id="app">
@@ -13,6 +14,7 @@ ReactDom.render(
             subtitulo="Sub Title"
         >
         </WithParameters>
+        <Fragment></Fragment> 
     </div>, 
     el
 )
