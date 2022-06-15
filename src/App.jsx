@@ -6,14 +6,20 @@ import Fragment from './components/basics/Fragment';
 import Random from './components/basics/Random';
 import Card from './components/layout/Card';
 import Family from './components/basics/Family';
+import MemberFamily from './components/basics/MemberFamily';
 
 export default function App(props) {
     return (
         <div className='app'>
             <h1>React fundamentals</h1>
+
             <div className="cards">
                 <Card title='#05 - Components with children' color='#000'>
-                    <Family lastName = 'Paris'></Family>
+                    <Family lastName = 'Paris'>
+                        <MemberFamily name='Fran'></MemberFamily>
+                        <MemberFamily name='Loh'></MemberFamily>
+                        <MemberFamily name='Luh'></MemberFamily>
+                    </Family>
                 </Card>
                 
                 <Card title='#04 - Challenge Random' color='#000'>
