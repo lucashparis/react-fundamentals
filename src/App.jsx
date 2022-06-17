@@ -7,6 +7,8 @@ import Random from './components/basics/Random';
 import Card from './components/layout/Card';
 import Family from './components/basics/Family';
 import MemberFamily from './components/basics/MemberFamily';
+import ListStudents from './components/repeat/ListStudents';
+
 
 export default function App(props) {
     return (
@@ -14,6 +16,10 @@ export default function App(props) {
             <h1>React fundamentals</h1>
 
             <div className="cards">
+                <Card title='#06 - Repeat' color='#000'>
+                    <ListStudents></ListStudents>
+                </Card>
+
                 <Card title='#05 - Components with children' color='#000'>
                     <Family lastName = 'Paris'>
                         <MemberFamily name='Fran'></MemberFamily>
