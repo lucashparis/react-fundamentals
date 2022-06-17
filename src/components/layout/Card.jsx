@@ -1,6 +1,7 @@
 import './Card.css';
 
 export default function Card(props) {
+    
     const styleCard = {
         backgroundColor: props.color || '#F00',
         borderColor: props.color || '#F00'

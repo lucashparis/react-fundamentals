@@ -12,7 +12,6 @@ import ListProducts from './components/repeat/ProductsTable';
 import EvenOrOdd from './components/conditional/EvenOrOdd';
 import UserInfo from './components/conditional/UserInfo';
 
-
 export default function App(props) {
     return (
         <div className='app'>

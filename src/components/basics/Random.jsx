@@ -1,4 +1,5 @@
 export default function Random(props) {
+    
     const {vlMin, vlMax} = props
     const vlRandom = parseInt(Math.floor(Math.random() * (vlMax - vlMin + 1)) + vlMin);
 

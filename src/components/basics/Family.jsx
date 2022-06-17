@@ -1,4 +1,3 @@
-// import MemberFamily from './MemberFamily'
 import React, {cloneElement} from 'react';
 
 export default function Family(props) {

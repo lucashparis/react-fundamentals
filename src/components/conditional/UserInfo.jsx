@@ -1,5 +1,5 @@
-
 import If from './If'
+
 export default function UserInfo(props){
     const user = props.user || {};
     return (
