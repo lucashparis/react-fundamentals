@@ -1,4 +1,5 @@
 import products from '../../data/product';
+
 const product = products.map((product) => {
     return(
         <tr key={product.id}>
@@ -14,7 +15,6 @@ export default function ListProducts(){
         <div>
            <table style={{width: '100%'}}>
             <thead>
-
                 <tr>
                     <th>ID</th>
                     <th>NAME</th>
