@@ -8,6 +8,7 @@ import Card from './components/layout/Card';
 import Family from './components/basics/Family';
 import MemberFamily from './components/basics/MemberFamily';
 import ListStudents from './components/repeat/ListStudents';
+import ListProducts from './components/repeat/ProductsTable';
 
 
 export default function App(props) {
@@ -16,7 +17,11 @@ export default function App(props) {
             <h1>React fundamentals</h1>
 
             <div className="cards">
-                <Card title='#06 - Repeat' color='#000'>
+                <Card title='#07 - Repeat Products' color='#000'>
+                    <ListProducts></ListProducts>
+                </Card>
+                
+                <Card title='#06 - Repeat Students' color='#000'>
                     <ListStudents></ListStudents>
                 </Card>
 
