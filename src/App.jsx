@@ -11,6 +11,7 @@ import ListStudents from './components/repeat/ListStudents';
 import ListProducts from './components/repeat/ProductsTable';
 import EvenOrOdd from './components/conditional/EvenOrOdd';
 import UserInfo from './components/conditional/UserInfo';
+import DirectFather from './components/comunication/DirectFather';
 
 export default function App(props) {
     return (
@@ -19,20 +20,24 @@ export default function App(props) {
 
             <div className="cards">
                 
-                <Card title='#08 - Conditional Rendering' color='#000'>
+                <Card title='#09 - Comunication Direct' color='#420039'>
+                    <DirectFather></DirectFather>
+                </Card>
+                
+                <Card title='#08 - Conditional Rendering' color='#420039'>
                     <EvenOrOdd number={20}></EvenOrOdd>
                     <UserInfo user={{name: 'Lucas'}}></UserInfo>
                 </Card>
 
-                <Card title='#07 - Repeat Products' color='#000'>
+                <Card title='#07 - Repeat Products' color='#932F6D'>
                     <ListProducts></ListProducts>
                 </Card>
                 
-                <Card title='#06 - Repeat Students' color='#000'>
+                <Card title='#06 - Repeat Students' color='#E07BE0'>
                     <ListStudents></ListStudents>
                 </Card>
 
-                <Card title='#05 - Components with children' color='#000'>
+                <Card title='#05 - Components with children' color='#6B0504'>
                     <Family lastName = 'Paris'>
                         <MemberFamily name='Fran'></MemberFamily>
                         <MemberFamily name='Loh'></MemberFamily>
@@ -40,7 +45,7 @@ export default function App(props) {
                     </Family>
                 </Card>
                 
-                <Card title='#04 - Challenge Random' color='#000'>
+                <Card title='#04 - Challenge Random' color='#006989'>
                     <Random vlMin={1} vlMax={100} />
                 </Card>
 
