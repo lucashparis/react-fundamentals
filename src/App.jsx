@@ -12,6 +12,7 @@ import ListProducts from './components/repeat/ProductsTable';
 import EvenOrOdd from './components/conditional/EvenOrOdd';
 import UserInfo from './components/conditional/UserInfo';
 import DirectFather from './components/comunication/DirectFather';
+import IndirectFather from './components/comunication/IndirectFather';
 
 export default function App(props) {
     return (
@@ -20,6 +21,10 @@ export default function App(props) {
 
             <div className="cards">
                 
+                <Card title='#10 - Comunication Indirect' color='#420039'>
+                    <IndirectFather></IndirectFather>
+                </Card>
+               
                 <Card title='#09 - Comunication Direct' color='#420039'>
                     <DirectFather></DirectFather>
                 </Card>
