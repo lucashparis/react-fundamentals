@@ -13,6 +13,7 @@ import EvenOrOdd from './components/conditional/EvenOrOdd';
 import UserInfo from './components/conditional/UserInfo';
 import DirectFather from './components/comunication/DirectFather';
 import IndirectFather from './components/comunication/IndirectFather';
+import Input from './components/form/input';
 
 export default function App(props) {
     return (
@@ -20,6 +21,10 @@ export default function App(props) {
             <h1>React fundamentals</h1>
 
             <div className="cards">
+                
+                <Card title='#11 - Controlled component' color='#420039'>
+                    <Input></Input>
+                </Card>
                 
                 <Card title='#10 - Comunication Indirect' color='#420039'>
                     <IndirectFather></IndirectFather>
