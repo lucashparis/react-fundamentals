@@ -15,6 +15,7 @@ import DirectFather from './components/comunication/DirectFather';
 import IndirectFather from './components/comunication/IndirectFather';
 import Input from './components/form/Input';
 import Counter from './components/counter/Counter';
+import Mega from './components/mega/Mega';
 
 export default function App(props) {
     return (
@@ -22,6 +23,10 @@ export default function App(props) {
             <h1>React fundamentals</h1>
 
             <div className="cards">
+                
+                <Card title='#13 - Mega' color='#420039'>
+                    <Mega qtd={7}></Mega>
+                </Card>
                 
                 <Card title='#12 - Counter' color='#420039'>
                     <Counter initialNumber={1} initialStep={10}></Counter>
